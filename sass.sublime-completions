@@ -1,0 +1,84 @@
+{
+
+    "scope": "source.sass",
+    "completions":
+    [
+       { "trigger": "background\tsass", "contents": "background: ${1:color} url('${2:image}') ${3:position} ${4:repeat}" }
+      ,{ "trigger": "background-size\tsass", "contents": "background-size: ${1:cover}" }
+      ,{ "trigger": "background-image\tsass", "contents": "background-image: url('${1:image}')" }
+      ,{ "trigger": "background-position\tsass", "contents": "background-position: ${1:position} ${2:position}" }
+      ,{ "trigger": "background-repeat\tsass", "contents": "background-repeat: ${1:repeat}" }
+      ,{ "trigger": "background-color\tsass", "contents": "background-color: ${1:color}" }
+      ,{ "trigger": "background-attachment\tsass", "contents": "background-attachment: ${1:fixed}" }
+      ,{ "trigger": "border\tsass", "contents": "border: ${1:width} ${2:style} ${3:color}" }
+      ,{ "trigger": "border-top\tsass", "contents": "border-top: ${1:value}" }
+      ,{ "trigger": "border-bottom\tsass", "contents": "border-bottom: ${1:width} ${2:style} ${3:color}" }
+      ,{ "trigger": "border-right\tsass", "contents": "border-right: ${1:width} ${2:style} ${3:color}" }
+      ,{ "trigger": "border-left\tsass", "contents": "border-left: ${1:width} ${2:style} ${3:color}" }
+      ,{ "trigger": "border-color\tsass", "contents": "border-color: ${1:color}" }
+      ,{ "trigger": "border-radius\tsass", "contents": "border-radius: ${1:radius}" }
+      ,{ "trigger": "box-shadow\tsass", "contents": "box-shadow: ${1:x} ${2:y} ${3:blur} ${4:spread} ${5:color}" }
+      ,{ "trigger": "box-sizing\tsass", "contents": "box-sizing: ${1:border-box}" }
+      ,{ "trigger": "bottom\tsass", "contents": "bottom: ${1:0px}" }
+      ,{ "trigger": "color\tsass", "contents": "color: ${1:color}" }
+      ,{ "trigger": "cursor\tsass", "contents": "cursor: ${1:pointer}" }
+      ,{ "trigger": "clear\tsass", "contents": "clear: ${1:both}" }
+      ,{ "trigger": "display\tsass", "contents": "display: ${1:block}" }
+      ,{ "trigger": "float\tsass", "contents": "float: ${1:left}" }
+      ,{ "trigger": "font-family\tsass", "contents": "font-family: ${1:font}" }
+      ,{ "trigger": "font-size\tsass", "contents": "font-size: ${1:size}" }
+      ,{ "trigger": "font-style\tsass", "contents": "font-style: ${1:italic}" }
+      ,{ "trigger": "font-weight\tsass", "contents": "font-weight: ${1:bold}" }
+      ,{ "trigger": "height\tsass", "contents": "height: ${1:value}" }
+      ,{ "trigger": "left\tsass", "contents": "left: ${1:0px}" }
+      ,{ "trigger": "line-height\tsass", "contents": "line-height: ${1:value}" }
+      ,{ "trigger": "list-style\tsass", "contents": "list-style: ${1:none}" }
+      ,{ "trigger": "margin\tsass", "contents": "margin: ${1:top} ${2:right} ${3:bottom} ${4:left}" }
+      ,{ "trigger": "margin-right\tsass", "contents": "margin-right: ${1:value}" }
+      ,{ "trigger": "margin-top\tsass", "contents": "margin-top: ${1:value}" }
+      ,{ "trigger": "margin-left\tsass", "contents": "margin-left: ${1:value}" }
+      ,{ "trigger": "margin-bottom\tsass", "contents": "margin-bottom: ${1:value}" }
+      ,{ "trigger": "max-height\tsass", "contents": "max-height: ${1:value}" }
+      ,{ "trigger": "max-width\tsass", "contents": "max-width: ${1:value}" }
+      ,{ "trigger": "min-width\tsass", "contents": "min-width: ${1:value}" }
+      ,{ "trigger": "min-height\tsass", "contents": "min-height: ${1:value}" }
+      ,{ "trigger": "opacity\tsass", "contents": "opacity: ${1:value}" }
+      ,{ "trigger": "outline\tsass", "contents": "outline: ${1:none}" }
+      ,{ "trigger": "overflow\tsass", "contents": "overflow: ${1:hidden}" }
+      ,{ "trigger": "overflow-x\tsass", "contents": "overflow-x: ${1:hidden}" }
+      ,{ "trigger": "overflow-y\tsass", "contents": "overflow-y: ${1:hidden}" }
+      ,{ "trigger": "padding\tsass", "contents": "padding: ${1:top} ${2:right} ${3:bottom} ${4:left}" }
+      ,{ "trigger": "padding-right\tsass", "contents": "padding-right: ${1:value}" }
+      ,{ "trigger": "padding-top\tsass", "contents": "padding-top: ${1:value}" }
+      ,{ "trigger": "padding-left\tsass", "contents": "padding-left: ${1:value}" }
+      ,{ "trigger": "padding-bottom\tsass", "contents": "padding-bottom: ${1:value}" }
+      ,{ "trigger": "position\tsass", "contents": "position: ${1:absolute}" }
+      ,{ "trigger": "right\tsass", "contents": "right: ${1:value}" }
+      ,{ "trigger": "resize\tsass", "contents": "resize: ${1:none}" }
+      ,{ "trigger": "text-align\tsass", "contents": "text-align: ${1:center}" }
+      ,{ "trigger": "text-decoration\tsass", "contents": "text-decoration: ${1:none}" }
+      ,{ "trigger": "text-indent\tsass", "contents": "text-indent: ${1:value}" }
+      ,{ "trigger": "text-overflow\tsass", "contents": "text-overflow: ${1:ellipsis}" }
+      ,{ "trigger": "text-transform\tsass", "contents": "text-transform: ${1:uppercase}" }
+      ,{ "trigger": "text-shadow\tsass", "contents": "text-shadow: ${1:x} ${2:y} ${3:spread} ${4:color}" }
+      ,{ "trigger": "top\tsass", "contents": "top: ${1:0px}" }
+      ,{ "trigger": "transform\tsass", "contents": "transform: ${1:function}" }
+      ,{ "trigger": "transition\tsass", "contents": "transition: ${1:duration} ${2:property} ${3:timing-function}" }
+      ,{ "trigger": "vertical-align\tsass", "contents": "vertical-align: ${1:middle}" }
+      ,{ "trigger": "visibility\tsass", "contents": "visibility: ${1:hidden}" }
+      ,{ "trigger": "white-space\tsass", "contents": "white-space: ${1:nowrap}" }
+      ,{ "trigger": "width\tsass", "contents": "width: ${1:value}" }
+      ,{ "trigger": "word-break\tsass", "contents": "word-break: ${1:break-all}" }
+      ,{ "trigger": "word-wrap\tsass", "contents": "word-wrap: ${1:break-word}" }
+      ,{ "trigger": "z-index\tsass", "contents": "z-index: ${1:value}" }
+      ,{ "trigger": "first-child\tsass", "contents": "first-child\n\t" }
+      ,{ "trigger": "last-child\tsass", "contents": "last-child\n\t" }
+      ,{ "trigger": "before\tsass", "contents": "before\n\tcontent: ''" }
+      ,{ "trigger": "after\tsass", "contents": "after\n\tcontent: ''" }
+      ,{ "trigger": "focus\tsass", "contents": "focus\n\t" }
+      ,{ "trigger": "active\tsass", "contents": "active\n\t" }
+      ,{ "trigger": "hover\tsass", "contents": "hover\n\t" }
+
+    ]
+
+}
